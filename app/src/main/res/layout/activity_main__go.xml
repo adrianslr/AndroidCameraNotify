@@ -1,0 +1,29 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/camera_view_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="20dp"
+        android:onClick="captureImage"
+        android:padding="10dp"
+        android:text="Take Photo and Upload it"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</FrameLayout>
+
+
